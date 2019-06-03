@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="nigeriandailies.com.ng.noteapp.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <!---Add new note-->
+    <item
+        android:enabled="true"
+        android:title="@string/create"
+        android:id="@+id/action_main_new_note"
+        android:icon="@android:drawable/ic_menu_add"
+        android:orderInCategory="0"
+        app:showAsAction="always"/>
+
+</menu>
